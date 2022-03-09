@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <assert.h>
 
-t_axial fall_flow (int q, int r, int color)
+void fall_flow (int q, int r, int color)
 {
     t_axial hex_pos;
 	hex_pos.q = q;
